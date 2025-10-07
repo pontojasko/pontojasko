@@ -6,8 +6,8 @@
 
 
 <div align="center">
-    <a href="https://www.linkedin.com/in/heitorjasko/" target="_blank"><img src="https://custom-icon-badges.demolab.com/badge/LinkedIn-0A66C2?logo=linkedin-white&logoColor=fff"/></a>
-    <a target="_blank" href="mailto:heitor@jasko.dev"><img src="https://img.shields.io/badge/-heitor@jasko.dev-D14836?style=flat&logo=Gmail&logoColor=white"/></a>
+    <a href="https://www.linkedin.com/in/heitorjasko/" target="_blank"><img src="https://custom-icon-badges.demolab.com/badge/linkedIn-0A66C2?logo=linkedin-white&logoColor=fff"/></a>
+    <a target="_blank" href="mailto:heitor@jasko.dev"><img src="https://img.shields.io/badge/-email-D14836?style=flat&logo=Gmail&logoColor=white"/></a>
     <a href="https://jasko.dev" target="_blank"><img src="https://img.shields.io/badge/jasko.dev-F4AA41?logo=Bruno&logoColor=black"/></a>
 
 </div>

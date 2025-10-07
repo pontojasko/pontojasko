@@ -1,7 +1,7 @@
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Times+New+Roman&size=60&duration=3000&pause=4000&color=000000&center=true&vCenter=true&width=435&height=70&lines=jasko" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Times+New+Roman&size=70&duration=3000&pause=4000&color=000000&center=true&vCenter=true&width=435&height=70&lines=jasko" alt="Typing SVG" />
 <br>
 
 
@@ -19,7 +19,7 @@
 
 <div align="center">
   
-<img src="https://readme-typing-svg.demolab.com?font=Times+New+Roman&size=40&color=000000&center=true&vCenter=true&width=435&lines=tecnologias&duration=1&pause=999999" alt="Static Text SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Times+New+Roman&size=40&color=000000&center=true&vCenter=true&height=60&width=435&lines=tecnologias&duration=1&pause=999999" alt="Static Text SVG" />
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)

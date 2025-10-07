@@ -43,6 +43,6 @@
 
 <div align="center">
 
-**desenvolvedor júnior** | **disponível para vagas presenciais, híbridas ou remotas** | **catanduva - sp**
+**catanduva - sp**
 
 </div>

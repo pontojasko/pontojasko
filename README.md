@@ -1,13 +1,12 @@
 <div align="center">
-  
-# heitor jasko
 
-### dev fullstack | java & react
+<img src="https://readme-typing-svg.demolab.com?font=Times+New+Roman&size=40&duration=3000&pause=1000&color=000000&center=true&vCenter=true&width=435&lines=heitor+jasko" alt="Typing SVG" />
+<br>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-conectar-0077B5?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/heitorjasko)
-[![Portfolio](https://img.shields.io/badge/Portfolio-visitar-000000?style=for-the-badge&logo=vercel)](https://jasko.dev)
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-conectar-0077B5?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/seu-usuario)
 [![Email](https://img.shields.io/badge/Email-contato-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:heitor@jasko.dev)
-
+[![Portfolio](https://img.shields.io/badge/Portfolio-visitar-000000?style=for-the-badge&logo=vercel)](https://jasko.dev)
 
 </div>
 
@@ -34,7 +33,6 @@
 ---
 
 
-
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=pontojasko&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=pontojasko&layout=compact&theme=tokyonight&hide_border=true)
@@ -45,6 +43,6 @@
 
 <div align="center">
 
-**catanduva - sp**
+**desenvolvedor júnior** | **disponível para vagas presenciais, híbridas ou remotas** | **catanduva - sp**
 
 </div>

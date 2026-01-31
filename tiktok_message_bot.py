@@ -6,6 +6,7 @@ A bot for automating TikTok messaging using Selenium WebDriver.
 
 import logging
 import os
+import shutil
 import tempfile
 import time
 from contextlib import contextmanager
@@ -57,7 +58,7 @@ def setup_firefox_options(headless: bool = True, profile_path: Optional[str] = N
     options.set_preference('useAutomationExtension', False)
     
     if profile_path:
-        options.add_argument(f'-profile={profile_path}')
+        options.add_argument(f'--profile={profile_path}')
     
     return options
 
@@ -317,7 +318,9 @@ def managed_webdriver(headless: bool = True, use_temp_profile: bool = True):
     """
     # Define SESSION_DIR at the beginning of the function
     SESSION_DIR = tempfile.mkdtemp(prefix="firefox_session_") if use_temp_profile else None
-    logger.info(f"Created temporary session directory: {SESSION_DIR}")
+    
+    if SESSION_DIR is not None:
+        logger.info(f"Created temporary session directory: {SESSION_DIR}")
     
     # Initialize driver variable before try block
     driver = None
@@ -358,7 +361,6 @@ def managed_webdriver(headless: bool = True, use_temp_profile: bool = True):
         if SESSION_DIR is not None:
             try:
                 logger.info(f"Removing session directory: {SESSION_DIR}")
-                import shutil
                 shutil.rmtree(SESSION_DIR, ignore_errors=True)
                 logger.info("Session directory removed successfully")
             except Exception as e:
@@ -410,6 +412,10 @@ if __name__ == "__main__":
     
     if len(sys.argv) != 5:
         print("Usage: python tiktok_message_bot.py <username> <password> <contact> <message>")
+        print("WARNING: Passing credentials via command-line arguments is insecure.")
+        print("Consider using environment variables instead:")
+        print("  export TIKTOK_USERNAME=your_username")
+        print("  export TIKTOK_PASSWORD=your_password")
         sys.exit(1)
     
     username = sys.argv[1]
